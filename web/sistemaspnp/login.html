@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.policia.gob.pe/sistemaspnp/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Nov 2021 01:28:08 GMT -->
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<title>Sistemas PNP</title>
+
+	<link rel="shortcut icon" href="https://www.policia.gob.pe/favicon.ico">
+
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/loader.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/3dParty/rs-plugin/css/pi.settings.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/slider.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/counters.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/galleries.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/images.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/portfolio.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/boxes.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/alert-boxes.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/css/animations.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.policia.gob.pe/sistemaspnp/3dParty/colorbox/colorbox.css"/>
+	
+
+	<!--Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic'
+		  rel='stylesheet' type='text/css'>
+
+	<!--Fonts with Icons-->
+	<link rel="stylesheet" href="https://www.policia.gob.pe/sistemaspnp/3dParty/fontello/css/fontello.css"/>
+
+	<!--[if lte IE 8]>
+	<script src="scripts/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+<div id="pi-all">
+
+	<div id="page" style="margin-top: 3%;">
+		<!--<div class="pi-section-w pi-section-white piICheck piStylishSelect" style="background: #f4f6f6;">-->
+		<div class="pi-section-w pi-section-white piICheck piStylishSelect">
+			<div class="pi-section pi-padding-bottom-60">
+				<div class="pi-text-center pi-margin-bottom-50">
+					<!--<h1 class="pi-uppercase pi-weight-700 pi-has-border pi-has-tall-border pi-has-short-border">-->
+					<h1 class="pi-uppercase pi-weight-700 pi-has-tall-border pi-has-short-border">
+						Instructivos en Sistemas Policiales<br />
+						Ingrese con sus credenciales de Intranet PNP
+					</h1>
+				</div>
+
+				<!-- Row -->
+				<div class="pi-row">
+					<!-- Col 4 -->
+					<div class="pi-col-md-4 pi-col-md-offset-4 pi-col-sm-6 pi-col-sm-offset-3 pi-col-xs-8 pi-col-xs-offset-2">
+						<div class="pi-box pi-round pi-shadow-15">
+							<div class="pi-text-center" style="padding-bottom: 15px;">
+								<img src="https://www.policia.gob.pe/sistemaspnp/img/map-white.png" alt="">
+							</div>
+
+							<div class="form-group">
+								<p class="pi-small-text">Ingrese Usuario</p>
+								<div class="pi-input-with-icon">
+									<div class="pi-input-icon"><i class="icon-user"></i></div>
+									<input type="email" class="form-control" id="exampleInputEmail" placeholder="Ingrese CIP">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<p class="pi-small-text">Ingrese Contraseña</p>
+								<div class="pi-input-with-icon">
+									<div class="pi-input-icon"><i class="icon-lock"></i></div>
+									<input type="password" class="form-control" id="exampleInputPassword" placeholder="Clave Intranet">
+								</div>
+							</div>
+
+							<p>
+								<button type="submit" onclick="IniciarSession();" class="btn pi-btn-base pi-btn-wide pi-weight-600">
+									Ingresar
+								</button>
+							</p>
+
+							<p class="pi-text-center" style="font-size: 13px;">
+								INTRANET : 964619885 | 945322464<br />
+								Horarios de atención de Lunes a Viernes<br />
+								08.30 a 15.30 horas<br />
+								Sabados de 08.30 a 13.30<br />
+								Administrador de Sistema : 518-0113
+								<!--<a href="#" class="pi-weight-600">Sign In</a>-->
+							</p>
+						</div>
+					</div>
+					<!-- final col 4 -->
+				</div>
+				<!-- final row -->
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="pi-scroll-top-arrow" data-scroll-to="0"></div>
+
+<script src="https://www.policia.gob.pe/sistemaspnp/jquery-1.8.3.min.js"></script>
+<script src="https://www.policia.gob.pe/sistemaspnp/jquery-1.8.3.js"></script>
+
+
+
+<script type="text/javascript">
+
+    function IniciarSession() {
+        
+        var pUser = $("#exampleInputEmail").val();
+        var pPass = $("#exampleInputPassword").val();
+
+        $.ajax({
+            type: "GET",
+            url: "https://dircocor.policia.gob.pe/apiLogin/Login/getLogin/user/" + pUser + "/pass/" + btoa(pPass),
+            success: function (result) {
+
+                if (result.respuesta == 1) {
+                    sessionStorage.setItem('vVariableSession', '1');
+                    window.location.href = "https://www.policia.gob.pe/sistemaspnp/index.html"
+                }
+                else if (result.respuesta == 2) {
+                    alert("Usuario y/o contraseña incorrecta!");
+                } else {
+                    alert("Ocurrió un error!: " + result.Error);
+                } 
+            }
+        })
+    }
+  
+</script>
+
+
+
+</body>
+
+<!-- Mirrored from www.policia.gob.pe/sistemaspnp/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Nov 2021 01:28:08 GMT -->
+</html>

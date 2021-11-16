@@ -1,0 +1,572 @@
+/* Smartphones (portrait and landscape) --  --  --  --  -- - */
+
+@media screen and (min-width: 304px) and (max-width: 667px) {
+    /* Styles */
+    
+    #ss_bar #social_icon,
+    #ss_bar #border_line {
+        display: none;
+    }
+    /* Social Top Background */
+    
+    #ss_bar .social-bg-middle {
+        position: fixed;
+        margin: 0 auto;
+        display: none;
+        text-align: center;
+        right: 0%;
+        left: inherit;
+        top: 50%;
+        width: auto;
+        height: auto;
+        z-index: 9999;
+    }
+    #ss_bar .social-bg-middle-lft {
+        left: 0%;
+        right: inherit;
+    }
+    /* Social Share Background */
+    
+    #ss_bar .social-small-bg-middle {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        right: 0%;
+        z-index: 9999;
+        width: auto;
+        height: auto;
+        top: 30.90%;
+    }
+    #ss_bar .share-icon-lft {
+        left: 0%;
+        right: inherit;
+    }
+    /* List Hyper Link */
+    
+    #ss_bar ul li a {
+        color: #fff;
+    }
+    /* List Inline */
+    
+    #ss_bar .social-bg-middle ul.list-inline {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+        display:none;
+    }
+    #ss_bar .social-small-bg-middle ul.list-inline {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    #ss_bar ul.list-inline>li {
+        display: inline-block;
+        padding: 5px;
+    }
+    #ss_bar .social-small-bg-middle ul.list-inline>li {
+        display: inline-block;
+        padding: 0px !important;
+    }
+    /* List Link Hover */
+    
+    #ss_bar i {
+        padding: 1px;
+    }
+}
+/* Smartphones (landscape) --  --  --  --  -- - */
+
+@media screen and (min-width: 321px) {
+    /* Styles */
+}
+/* Smartphones (portrait) --  --  --  --  -- - */
+
+@media screen and (max-width: 320px) {
+    /* Styles */
+}
+/* iPads (portrait and landscape) --  --  --  --  -- - */
+
+@media screen and (min-width: 668px) and (max-width: 1223px) {
+    /* Styles */
+    
+    /* Social Top Background */
+    
+    #ss_bar .social-bg-middle {
+        position: fixed;
+        margin: 0 auto;
+        display: none;
+        text-align: center;
+        right: 6.90%;
+        left: inherit;
+        top: 30%;
+        width: auto;
+        height: auto;
+        z-index: 9999;
+    }
+    #ss_bar .social-bg-middle-lft {
+        left: 6.90%;
+        right: inherit;
+    }
+    /* Social Share Background */
+    
+    #ss_bar .social-small-bg-middle {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        right: 0%;
+        z-index: 9999;
+        width: auto;
+        height: auto;
+        top: 30.50%;
+    }
+    #ss_bar .share-icon-lft {
+        left: 0%;
+        right: inherit;
+    }
+    /* List Hyper Link */
+    
+    #ss_bar ul li a {
+        color: #fff;
+    }
+    /* List Inline */
+    
+    #ss_bar .social-bg-middle ul.list-inline {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    #ss_bar .social-small-bg-middle ul.list-inline {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    #ss_bar ul.list-inline>li {
+        display: inline-block;
+        padding: 5px;
+    }
+    #ss_bar .social-small-bg-middle ul.list-inline>li {
+        display: inline-block;
+        padding: 0px !important;
+    }
+    /* List Link Hover */
+    
+    #ss_bar i {
+        padding: 1px;
+    }
+}
+/* iPads (landscape) --  --  --  --  -- - */
+
+@media screen and (min-width: 668px) and (max-width: 1223px) and (orientation: landscape) {
+    /* Styles */
+}
+/* iPads (portrait) --  --  --  --  -- - */
+
+@media screen and (min-width: 668px) and (max-width: 1223px) and (orientation: portrait) {
+    /* Styles */
+}
+/* Desktops and laptops --  --  --  --  -- - */
+
+@media screen and (min-width: 1224px) {
+    /* Styles */
+    
+    #ss_bar #social_icon,
+    #ss_bar #border_line {
+        display: block;
+    }
+    /* Social Top Background */
+    
+    #ss_bar .social-bg-middle {
+        position: fixed;
+        margin: 0 auto;
+        display: none;
+        text-align: center;
+        right: 0%;
+        left: inherit;
+        top: 20%;
+        width: 7%;
+        height: auto;
+        z-index: 9999;
+    }
+    #ss_bar .social-bg-middle-lft {
+        left: 0%;
+        right: inherit;
+    }
+    /* Social Share Background */
+    
+    #ss_bar .social-small-bg-middle {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        right: 0%;
+        z-index: 9999;
+        width: auto;
+        height: auto;
+        top: 50.90%;
+    }
+    #ss_bar .share-icon-lft {
+        left: 0%;
+        right: inherit;
+    }
+    /* List Hyper Link */
+    
+    #ss_bar ul li a {
+        color: #fff;
+    }
+    /* List Inline */
+    
+    #ss_bar .social-bg-middle ul.list-inline {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    #ss_bar .social-small-bg-middle ul.list-inline {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    #ss_bar ul.list-inline>li {
+        display: inline-block;
+        padding: 5px;
+    }
+    #ss_bar .social-small-bg-middle ul.list-inline>li {
+        display: inline-block;
+        padding: 0px !important;
+    }
+    /* List Link Hover */
+    
+    #ss_bar i {
+        padding: 1px;
+    }
+}
+/* Large screens --  --  --  --  -- - */
+
+@media screen and (min-width: 1824px) {
+    /* Styles */
+}
+ /* Social Display CSS*/
+    #ss_bar #social_icon,
+    #ss_bar #border_line {
+        display: block;
+    }
+/* Icon border radius */
+
+#ss_bar .fa-stack-1x {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #000000;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+#ss_bar .fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+/* This is Social icon Color Hover */
+
+#ss_bar ul.list-inline li a:hover .fa-facebook,
+#ss_bar ul.list-unstyled li a:hover .fa-facebook {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #3b5998;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+#ss_bar ul.list-inline li a:hover .fa-twitter,
+#ss_bar ul.list-unstyled li a:hover .fa-twitter {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #4099FF;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+#ss_bar ul.list-inline li a:hover .fa-instagram,
+#ss_bar ul.list-unstyled li a:hover .fa-instagram {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #d10869;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+#ss_bar ul.list-inline li a:hover .fa-google-plus,
+#ss_bar ul.list-unstyled li a:hover .fa-google-plus {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #d34836;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+#ss_bar ul.list-inline li a:hover .fa-youtube-square,
+#ss_bar ul.list-unstyled li a:hover .fa-youtube-square {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #ff0000;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+#ss_bar ul.list-inline li a:hover .fa-vimeo,
+#ss_bar ul.list-unstyled li a:hover .fa-vimeo {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #4EBBFF;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+#ss_bar ul.list-inline li a:hover .fa-flickr,
+#ss_bar ul.list-unstyled li a:hover .fa-flickr {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fff;
+    background-color: #d90074;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+/* This is Slide Top Background */
+
+.slideTop {
+    animation-name: slideTop;
+    -webkit-animation-name: slideTop;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    50% {
+        transform: translateY(8%);
+    }
+    65% {
+        transform: translateY(-4%);
+    }
+    80% {
+        transform: translateY(4%);
+    }
+    95% {
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slideTop {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+    50% {
+        -webkit-transform: translateY(8%);
+    }
+    65% {
+        -webkit-transform: translateY(-4%);
+    }
+    80% {
+        -webkit-transform: translateY(4%);
+    }
+    95% {
+        -webkit-transform: translateY(-2%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+/* This is Slide Bottom Background */
+
+.slideBottom {
+    animation-name: slideBottom;
+    -webkit-animation-name: slideBottom;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+@keyframes slideBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    50% {
+        transform: translateY(-8%);
+    }
+    65% {
+        transform: translateY(4%);
+    }
+    80% {
+        transform: translateY(-4%);
+    }
+    95% {
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slideBottom {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    50% {
+        -webkit-transform: translateY(-8%);
+    }
+    65% {
+        -webkit-transform: translateY(4%);
+    }
+    80% {
+        -webkit-transform: translateY(-4%);
+    }
+    95% {
+        -webkit-transform: translateY(2%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+/* This is Slide Left Background */
+
+.slideLeft {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(8%);
+    }
+    65% {
+        transform: translateX(-4%);
+    }
+    80% {
+        transform: translateX(4%);
+    }
+    95% {
+        transform: translateX(-2%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@-webkit-keyframes slideLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    50% {
+        -webkit-transform: translateX(8%);
+    }
+    65% {
+        -webkit-transform: translateX(-4%);
+    }
+    80% {
+        -webkit-transform: translateX(4%);
+    }
+    95% {
+        -webkit-transform: translateX(-2%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+/* This is Slide Right Background */
+
+.slideRight {
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(-8%);
+    }
+    65% {
+        transform: translateX(4%);
+    }
+    80% {
+        transform: translateX(-4%);
+    }
+    95% {
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    50% {
+        -webkit-transform: translateX(-8%);
+    }
+    65% {
+        -webkit-transform: translateX(4%);
+    }
+    80% {
+        -webkit-transform: translateX(-4%);
+    }
+    95% {
+        -webkit-transform: translateX(2%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}

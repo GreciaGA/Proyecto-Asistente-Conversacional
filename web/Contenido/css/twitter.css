@@ -1,0 +1,70 @@
+﻿#twitterfacebook {
+	height: 390px;
+	width: 350px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #004030;
+	border-bottom-color: #004030;
+	border-left-color: #004030;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #004030;
+}
+
+@media only screen and (max-width: 410px) {
+  #twitterfacebook {
+    height: 410px;
+	width: auto;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #004030;
+	border-bottom-color: #004030;
+	border-left-color: #004030;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #004030;
+  }
+    
+}
+
+
+
+
+
+
+
+
+
+
+.dirsapol {
+ 
+  /*background: yellow;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+.cont-dirsa {
+    /*background: red;*/
+    height:450px;
+    width:1100px;
+    
+    
+
+}
+.der {
+    margin: 0 0 0 auto;
+    height: 2em;
+    display: block;
+    
+}

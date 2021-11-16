@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/01/2018, 06:44:40 PM
+    Author     : Eddy
+*/
+
+.etabs 
+{ 
+    margin: 0; 
+    padding: 0; 
+}
+
+.tab 
+{ 
+    display: inline-block; 
+    zoom:1; 
+    *display:inline; 
+    background: #F2F1F7; 
+    border: solid 1px #DDDDDD; 
+    border-bottom: none;   
+}
+
+.tab a 
+{ 
+    color:#999999;
+    font-size:12px;
+    line-height: 30px; 
+    display: block; 
+    padding: 0 10px; 
+    outline: none; 
+    text-decoration:none;
+}
+
+.tab a:hover 
+{ 
+    text-decoration: none;    
+    color:#3D90CB;
+}
+
+.tab.active 
+{ 
+    background: #fff;    
+    position: relative; 
+    top: 1px; 
+    color:#044d36;
+    border-color: #DDDDDD; 
+    border-top:2px solid #C83A2A;
+}
+
+.tab a.active 
+{ 
+    font-weight: bold; 
+    color:#044d36;
+}
+
+/**/
+
+.tab-alter 
+{ 
+    display: inline-block; 
+    zoom:1; 
+    *display:inline; 
+    background: #F2F1F7; 
+    border: solid 1px #DDDDDD; 
+    border-bottom: none;   
+}
+
+.tab-alter a 
+{ 
+    color:#999999;
+    font-size:12px;
+    line-height: 30px; 
+    display: block; 
+    padding: 0 10px; 
+    outline: none; 
+    text-decoration:none;
+}
+
+.tab-alter a:hover 
+{ 
+    text-decoration: none;    
+    color:#044d36;
+}
+
+.tab-alter.active 
+{ 
+    background: #fff;    
+    position: relative; 
+    top: 1px; 
+    color:#3D90CB;
+    border-color: #DDDDDD; 
+    border-top:2px solid #044d36;
+}
+
+.tab-alter a.active 
+{ 
+    font-weight: bold; 
+    color:#044d36;
+}
+
+
+/**TAB HOME**/
+
+.tab-home 
+{ 
+    display: inline-block; 
+    zoom:1; 
+    *display:inline; 
+    background: #ba9e66; 
+    border: solid 1px #DDDDDD; 
+    border-bottom: none;   
+}
+
+.tab-home a 
+{ 
+    color:#044d36;
+    font-size:12px;
+    line-height: 30px; 
+    display: block; 
+    padding: 0 10px; 
+    outline: none; 
+    text-decoration:none;
+}
+
+.tab-home a:hover 
+{ 
+    text-decoration: none;    
+    color:#9D191B;
+}
+
+.tab-home.active 
+{ 
+    background: #e3d9ba;    
+    position: relative; 
+    top: 1px; 
+    color:#044d36;
+    border-color: #DDDDDD; 
+    border-top:3px solid #9D191B;
+
+}
+
+.tab-home a.active 
+{ 
+    font-weight: bold; 
+    color:#9D191B;      
+}
+
+/**/
+
+
+.tab-container .panel-container 
+{ 
+    background: #e3d9ba; 
+    border: solid #DDDDDD 1px; 
+    padding: 10px; 
+    -moz-border-radius: 0 4px 4px 4px; 
+    -webkit-border-radius: 0 4px 4px 4px; 
+    min-height:100px;
+}
+
+.panel-container 
+{ 
+    margin-bottom: 10px; 
+}
+
